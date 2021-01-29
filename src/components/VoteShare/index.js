@@ -59,16 +59,18 @@ export default (props) => {
   // prettier-ignore
   const greenChangePerc = 100 - (sliderValue / 1)
 
-  console.log(data);
+  const change = data.length > 0 ? Math.abs(data[0].change) : 0;
 
   const snpHaveLost =
     data.length > 0
-      ? `The SNP have lost ${Math.abs(data[0].change)} list seats`
+      ? `The SNP have lost ${change} list ${
+          change === 1 ? 'seat' : 'seats'
+        } in ${results.region.toUpperCase()}`
       : '';
 
   return (
     <div className="VoteShare">
-      <h2 style={{ padding: '1rem 0' }}>Share the vote</h2>
+      <h2 style={{ padding: '1rem 0' }}>Share the list vote</h2>
       <hr />
       <div className="inner-container">
         <div className="party__stat">

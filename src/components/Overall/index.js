@@ -54,7 +54,7 @@ export default (props) => {
     return (
       results && (
         <div className="Overall">
-          <h2 style={{ padding: '1rem 0' }}>Overall change</h2>
+          <h2 style={{ padding: '1rem 0' }}>Overall list change</h2>
           <hr />
           <div className="inner-container">
             <Card>

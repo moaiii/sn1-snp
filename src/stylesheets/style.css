@@ -847,7 +847,7 @@ tr.party > td.isp,
 tr.party > td.green,
 tr.party > td.labour,
 tr.party > td.tories,
-tr.party > td.libdems {
+tr.party > td.libs {
   text-transform: uppercase;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -857,7 +857,7 @@ tr.party > td.libdems {
 tr.party > td.green,
 tr.party > td.labour,
 tr.party > td.tories,
-tr.party > td.libdems {
+tr.party > td.libs {
   text-transform: capitalize;
 }
 
@@ -910,12 +910,12 @@ tr.party > td.isp {
   background-size: cover;
 }
 
-.party > td.libdems > div.logo {
+.party > td.libs > div.logo {
   margin-right: 1rem;
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
-  background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/libdems.png');
+  background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/libs.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

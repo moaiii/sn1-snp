@@ -29,7 +29,7 @@ const Parties = [
     allegiance: 'union',
   },
   {
-    name: 'libdems',
+    name: 'libs',
     colour: '#faa01a',
     allegiance: 'union',
   },
@@ -97,7 +97,7 @@ var condenseData = ({ allRegionalVotes, region }) => {
             regionalSeats: 0,
             originalList: 21,
           },
-          libdems: {
+          libs: {
             constituencySeats: 0,
             listVoteCount: 0,
             regionalSeats: 0,
@@ -206,7 +206,7 @@ var SplitTheVote = ({ snpRatio = 1, region = 'scotland' }) => {
   var Unionist = new Alliance({
     type: 'unionist',
     regionalVotes: allRegionalVotes,
-    parties: ['libdems', 'labour', 'tories'],
+    parties: ['libs', 'labour', 'tories'],
   });
 
   // final ui object

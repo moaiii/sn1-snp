@@ -18,7 +18,7 @@ var Regions = {
       party: {
         labour: 67103,
         snp: 129082,
-        libdems: 5015,
+        libs: 5015,
         tories: 43602,
         green: 12722,
       },
@@ -26,7 +26,7 @@ var Regions = {
     listOriginal: {
       labour: 4,
       snp: 0,
-      libdems: 0,
+      libs: 0,
       tories: 3,
       green: 0,
     },
@@ -35,7 +35,7 @@ var Regions = {
       party: {
         labour: 0,
         snp: 9,
-        libdems: 0,
+        libs: 0,
         tories: 0,
         green: 0,
       },
@@ -61,7 +61,7 @@ var Regions = {
       party: {
         labour: 59151,
         snp: 111101,
-        libdems: 5850,
+        libs: 5850,
         tories: 29533,
         green: 23398,
       },
@@ -69,7 +69,7 @@ var Regions = {
     listOriginal: {
       labour: 4,
       snp: 0,
-      libdems: 0,
+      libs: 0,
       tories: 2,
       green: 1,
     },
@@ -78,7 +78,7 @@ var Regions = {
       party: {
         labour: 0,
         snp: 9,
-        libdems: 0,
+        libs: 0,
         tories: 0,
         green: 0,
       },
@@ -103,7 +103,7 @@ var Regions = {
       party: {
         labour: 22894,
         snp: 81600,
-        libdems: 27223,
+        libs: 27223,
         tories: 44693,
         green: 14781,
       },
@@ -111,7 +111,7 @@ var Regions = {
     listOriginal: {
       labour: 2,
       snp: 1,
-      libdems: 0,
+      libs: 0,
       tories: 3,
       green: 1,
     },
@@ -120,7 +120,7 @@ var Regions = {
       party: {
         labour: 0,
         snp: 6,
-        libdems: 2,
+        libs: 2,
         tories: 0,
         green: 0,
       },
@@ -146,7 +146,7 @@ var Regions = {
       party: {
         labour: 67991,
         snp: 118546,
-        libdems: 18479,
+        libs: 18479,
         tories: 74972,
         green: 34551,
       },
@@ -154,7 +154,7 @@ var Regions = {
     listOriginal: {
       labour: 2,
       snp: 0,
-      libdems: 0,
+      libs: 0,
       tories: 3,
       green: 2,
     },
@@ -163,7 +163,7 @@ var Regions = {
       party: {
         labour: 1,
         snp: 6,
-        libdems: 1,
+        libs: 1,
         tories: 1,
         green: 0,
       },
@@ -189,7 +189,7 @@ var Regions = {
       party: {
         labour: 51373,
         snp: 120128,
-        libdems: 20401,
+        libs: 20401,
         tories: 73293,
         green: 17860,
       },
@@ -197,7 +197,7 @@ var Regions = {
     listOriginal: {
       labour: 2,
       snp: 0,
-      libdems: 0,
+      libs: 0,
       tories: 4,
       green: 1,
     },
@@ -206,7 +206,7 @@ var Regions = {
       party: {
         labour: 0,
         snp: 8,
-        libdems: 1,
+        libs: 1,
         tories: 0,
         green: 0,
       },
@@ -233,7 +233,7 @@ var Regions = {
       party: {
         labour: 38791,
         snp: 137086,
-        libdems: 18444,
+        libs: 18444,
         tories: 85848,
         green: 15123,
       },
@@ -241,7 +241,7 @@ var Regions = {
     listOriginal: {
       labour: 2,
       snp: 0,
-      libdems: 1,
+      libs: 1,
       tories: 4,
       green: 0,
     },
@@ -250,7 +250,7 @@ var Regions = {
       party: {
         labour: 0,
         snp: 9,
-        libdems: 0,
+        libs: 0,
         tories: 1,
         green: 0,
       },
@@ -276,7 +276,7 @@ var Regions = {
       party: {
         labour: 56072,
         snp: 120217,
-        libdems: 11775,
+        libs: 11775,
         tories: 100753,
         green: 14773,
       },
@@ -284,7 +284,7 @@ var Regions = {
     listOriginal: {
       labour: 2,
       snp: 3,
-      libdems: 0,
+      libs: 0,
       tories: 2,
       green: 0,
     },
@@ -293,7 +293,7 @@ var Regions = {
       party: {
         labour: 1,
         snp: 4,
-        libdems: 0,
+        libs: 0,
         tories: 4,
         green: 0,
       },
@@ -320,7 +320,7 @@ var Regions = {
       party: {
         labour: 72544,
         snp: 135827,
-        libdems: 12097,
+        libs: 12097,
         tories: 71528,
         green: 17218,
       },
@@ -328,7 +328,7 @@ var Regions = {
     listOriginal: {
       labour: 3,
       snp: 0,
-      libdems: 0,
+      libs: 0,
       tories: 3,
       green: 1,
     },
@@ -337,7 +337,7 @@ var Regions = {
       party: {
         labour: 1,
         snp: 8,
-        libdems: 0,
+        libs: 0,
         tories: 1,
         green: 0,
       },
