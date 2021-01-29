@@ -30,7 +30,7 @@ function App(props) {
           region={props.region}
           setRegion={props.setRegion}
         />
-        <RegionDetails results={props.voteShare.results} />
+        {/* <RegionDetails results={props.voteShare.results} /> */}
         <VoteShare
           region={props.region}
           voteShare={props.voteShare}

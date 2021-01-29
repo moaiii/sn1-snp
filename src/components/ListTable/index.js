@@ -6,7 +6,7 @@ const columns = [
     title: 'Party',
     dataIndex: 'party',
     key: 'party',
-    render: (text) => <a>{text}</a>,
+    render: (text) => text.toUpperCase(),
   },
   {
     title: 'List votes',
@@ -67,7 +67,8 @@ export default (props) => {
 
   return (
     <div className="ListTable">
-      <h2>Results in detail</h2>
+      <h2 style={{ padding: '1rem 0' }}>Party numbers</h2>
+      <hr />
       <Table columns={columns} dataSource={data} />
     </div>
   );

@@ -4,10 +4,10 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -webkit-filter: saturate(1.05);
-          filter: saturate(1.05)
+  filter: saturate(1.05);
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 
 .inner-content-container.--blur {
   -webkit-filter: blur(2px);
-          filter: blur(2px);
+  filter: blur(2px);
   opacity: 0.3;
 }
 
@@ -35,7 +35,7 @@ body {
   position: relative;
   z-index: 999;
   color: white;
-  background-color: #3478BA;
+  background-color: #3478ba;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,7 +44,7 @@ body {
 
 .header.--blur {
   -webkit-filter: blur(2px);
-          filter: blur(2px);
+  filter: blur(2px);
   opacity: 0.3;
 }
 
@@ -55,9 +55,9 @@ body {
   padding: 1rem;
   max-width: 900px;
   margin: 0 auto;
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .menu-open-container {
@@ -71,8 +71,8 @@ body {
   display: flex;
   border-left: 1px solid rgba(255, 255, 255, 0.801);
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .menu-open-container > .button {
@@ -118,7 +118,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }
 
 .alliances {
@@ -126,8 +126,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   /* position: fixed; */
   width: 100%;
   bottom: 4rem;
@@ -146,15 +146,15 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   position: relative;
 }
 
 .alliances > .indy {
   -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
+  -ms-flex-align: left;
+  align-items: left;
 }
 
 .alliances > .indy > p {
@@ -167,15 +167,15 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 0 1.5rem 0 0;
 }
 
@@ -184,22 +184,22 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 0 1.5rem 0 0;
 }
 
 .total-seats {
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 .total-seats > p.diff {
@@ -221,7 +221,7 @@ a {
 }
 
 .total-seats > p.diff.--gain::before {
-  content: "+"
+  content: '+';
 }
 
 .alliances > .indy > .data-container {
@@ -229,8 +229,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .alliances > .union {
@@ -244,8 +244,8 @@ a {
 
 .alliances > .union > .data-container {
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,14 +256,14 @@ a {
   left: -1rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 
 .alliances > .union > .tags > .con {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  background-color: #91CCEC;
+  background-color: #91ccec;
 }
 .alliances > .union > .tags > .lab {
   width: 1rem;
@@ -285,8 +285,8 @@ a {
   border-bottom-right-radius: 1.5rem;
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
-  -webkit-box-shadow: 0 5px 13px -1px rgba(0,0,0,0.3);
-          box-shadow: 0 5px 13px -1px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.3);
 }
 
 .union {
@@ -296,8 +296,8 @@ a {
   border-bottom-right-radius: 0px;
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
-  -webkit-box-shadow: 0 5px 13px -1px rgba(0,0,0,0.3);
-          box-shadow: 0 5px 13px -1px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.3);
 }
 
 .const-seats,
@@ -315,8 +315,8 @@ a {
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -333,15 +333,15 @@ a {
   border-radius: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .flag.--indy {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/200px-Flag_of_Scotland.svg.png")
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/200px-Flag_of_Scotland.svg.png');
 }
 
 .flag.--union {
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/320px-Flag_of_the_United_Kingdom.svg.png")
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/320px-Flag_of_the_United_Kingdom.svg.png');
 }
 
 .--small-bold > p {
@@ -373,9 +373,9 @@ a {
   background: #fdf38e;
   outline: none;
   opacity: 0.9;
-  -webkit-transition: .2s;
-  -webkit-transition: opacity .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
   max-width: 70%;
   width: 100%;
 }
@@ -392,10 +392,10 @@ a {
   border: 1px solid #333;
   border-radius: 50%;
   background: white;
-  background-position: center; 
-  -webkit-box-shadow: 0 5px 13px -1px rgba(0,0,0,0.1); 
-          box-shadow: 0 5px 13px -1px rgba(0,0,0,0.1);
-  background-repeat: no-repeat; 
+  background-position: center;
+  -webkit-box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
 }
@@ -410,15 +410,15 @@ a {
 
 .slider-party-container {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .slider-party-container > div.snp--logo {
@@ -428,10 +428,10 @@ a {
   border: 1px solid #333;
   border-radius: 50%;
   background: url('https://www.snp.org/app/themes/snp/dist/images/avatar.svg');
-  background-position: center; 
-  -webkit-box-shadow: 0 5px 13px -1px rgba(0,0,0,0.1); 
-          box-shadow: 0 5px 13px -1px rgba(0,0,0,0.1);
-  background-repeat: no-repeat; 
+  background-position: center;
+  -webkit-box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -442,96 +442,222 @@ a {
   border: 1px solid #333;
   border-radius: 50%;
   background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/isp.jpg');
-  background-position: center; 
-  -webkit-box-shadow: 0 5px 13px -1px rgba(0,0,0,0.1); 
-          box-shadow: 0 5px 13px -1px rgba(0,0,0,0.1);
-  background-repeat: no-repeat; 
+  background-position: center;
+  -webkit-box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 input.--perc100 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(253,243,142,1)), to(#3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 100%, #3478BA 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(100%, rgba(253, 243, 142, 1)),
+    to(#3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 100%, #3478ba 100%);
 }
 input.--perc95 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(95%, rgba(253,243,142,1)), color-stop(95%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 95%, #3478BA 95%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(95%, rgba(253, 243, 142, 1)),
+    color-stop(95%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 95%, #3478ba 95%);
 }
 input.--perc90 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(90%, rgba(253,243,142,1)), color-stop(90%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 90%, #3478BA 90%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(90%, rgba(253, 243, 142, 1)),
+    color-stop(90%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 90%, #3478ba 90%);
 }
 input.--perc85 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(85%, rgba(253,243,142,1)), color-stop(85%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 85%, #3478BA 85%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(85%, rgba(253, 243, 142, 1)),
+    color-stop(85%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 85%, #3478ba 85%);
 }
 input.--perc80 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(80%, rgba(253,243,142,1)), color-stop(80%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 80%, #3478BA 80%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(80%, rgba(253, 243, 142, 1)),
+    color-stop(80%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 80%, #3478ba 80%);
 }
 input.--perc75 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(75%, rgba(253,243,142,1)), color-stop(75%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 75%, #3478BA 75%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(75%, rgba(253, 243, 142, 1)),
+    color-stop(75%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 75%, #3478ba 75%);
 }
 input.--perc70 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(70%, rgba(253,243,142,1)), color-stop(70%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 70%, #3478BA 70%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(70%, rgba(253, 243, 142, 1)),
+    color-stop(70%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 70%, #3478ba 70%);
 }
 input.--perc65 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(65%, rgba(253,243,142,1)), color-stop(65%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 65%, #3478BA 65%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(65%, rgba(253, 243, 142, 1)),
+    color-stop(65%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 65%, #3478ba 65%);
 }
 input.--perc60 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(60%, rgba(253,243,142,1)), color-stop(60%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 60%, #3478BA 60%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(60%, rgba(253, 243, 142, 1)),
+    color-stop(60%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 60%, #3478ba 60%);
 }
 input.--perc55 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(55%, rgba(253,243,142,1)), color-stop(55%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 55%, #3478BA 55%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(55%, rgba(253, 243, 142, 1)),
+    color-stop(55%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 55%, #3478ba 55%);
 }
 input.--perc50 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(253,243,142,1)), color-stop(50%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 50%, #3478BA 50%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(50%, rgba(253, 243, 142, 1)),
+    color-stop(50%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 50%, #3478ba 50%);
 }
 input.--perc45 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(45%, rgba(253,243,142,1)), color-stop(45%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 45%, #3478BA 45%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(45%, rgba(253, 243, 142, 1)),
+    color-stop(45%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 45%, #3478ba 45%);
 }
 input.--perc40 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(40%, rgba(253,243,142,1)), color-stop(40%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 40%, #3478BA 40%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(40%, rgba(253, 243, 142, 1)),
+    color-stop(40%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 40%, #3478ba 40%);
 }
 input.--perc35 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(35%, rgba(253,243,142,1)), color-stop(35%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 35%, #3478BA 35%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(35%, rgba(253, 243, 142, 1)),
+    color-stop(35%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 35%, #3478ba 35%);
 }
 input.--perc30 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(30%, rgba(253,243,142,1)), color-stop(30%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 30%, #3478BA 30%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(30%, rgba(253, 243, 142, 1)),
+    color-stop(30%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 30%, #3478ba 30%);
 }
 input.--perc25 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(25%, rgba(253,243,142,1)), color-stop(25%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 25%, #3478BA 25%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(25%, rgba(253, 243, 142, 1)),
+    color-stop(25%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 25%, #3478ba 25%);
 }
 input.--perc20 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(20%, rgba(253,243,142,1)), color-stop(20%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 20%, #3478BA 20%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(20%, rgba(253, 243, 142, 1)),
+    color-stop(20%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 20%, #3478ba 20%);
 }
 input.--perc15 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(253,243,142,1)), color-stop(15%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 15%, #3478BA 15%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(15%, rgba(253, 243, 142, 1)),
+    color-stop(15%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 15%, #3478ba 15%);
 }
 input.--perc10 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(253,243,142,1)), color-stop(10%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 10%, #3478BA 10%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(10%, rgba(253, 243, 142, 1)),
+    color-stop(10%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 10%, #3478ba 10%);
 }
 input.--perc5 {
-  background: -webkit-gradient(linear, left top, right top, color-stop(5%, rgba(253,243,142,1)), color-stop(5%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 5%, #3478BA 5%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(5%, rgba(253, 243, 142, 1)),
+    color-stop(5%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 5%, #3478ba 5%);
 }
 input.--perc0 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(253,243,142,1)), color-stop(0%, #3478BA));
-  background: linear-gradient(90deg, rgba(253,243,142,1) 0%, #3478BA 0%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(253, 243, 142, 1)),
+    color-stop(0%, #3478ba)
+  );
+  background: linear-gradient(90deg, rgba(253, 243, 142, 1) 0%, #3478ba 0%);
 }
 
 .isp-slider {
@@ -542,12 +668,12 @@ input.--perc0 {
   margin: 0 auto;
   max-width: 70%;
   width: 100%;
-  background: #3478BA;
+  background: #3478ba;
   outline: none;
   opacity: 0.9;
-  -webkit-transition: .2s;
-  -webkit-transition: opacity .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
 }
 
 .isp-slider:hover {
@@ -562,11 +688,11 @@ input.--perc0 {
   border: 1px solid #333;
   border-radius: 50%;
   background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/isp.jpg');
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-box-shadow: 0 5px 13px -1px rgba(0,0,0,0.1);
-          box-shadow: 0 5px 13px -1px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
@@ -583,7 +709,7 @@ input.--perc0 {
   bottom: -1.5rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   background-color: rgba(51, 51, 51, 0.21);
 }
 
@@ -594,8 +720,8 @@ input.--perc0 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .slider > .title-container {
@@ -603,17 +729,17 @@ input.--perc0 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   /* margin-bottom: 1rem; */
   font-size: 1.1rem;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .regions {
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 .region-selection {
@@ -629,11 +755,11 @@ input.--perc0 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: space-between;
-      -ms-flex-align: space-between;
-          align-items: space-between;
+  -ms-flex-align: space-between;
+  align-items: space-between;
 }
 
 .regions > .constituencies > .list {
@@ -642,7 +768,7 @@ input.--perc0 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .regions > .constituencies > .list > p {
@@ -661,26 +787,26 @@ input.--perc0 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 table > tbody > tr > th {
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
   cursor: pointer;
   vertical-align: top;
   text-align: left;
 }
 
 table > thead > tr > th {
-  padding: 1rem .5rem .5rem .5rem;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
   cursor: pointer;
   vertical-align: top;
   text-align: left;
 }
 
 table > tfoot > tr > td {
-  padding: .5rem;
+  padding: 0.5rem;
   cursor: pointer;
   vertical-align: top;
   text-align: left;
@@ -694,8 +820,12 @@ table {
   display: table;
 }
 
-tr:nth-child(odd) {background: rgb(233, 232, 232)}
-tr:nth-child(even) {background: rgb(206, 206, 206)}
+tr:nth-child(odd) {
+  background: rgb(233, 232, 232);
+}
+tr:nth-child(even) {
+  background: rgb(206, 206, 206);
+}
 
 thead {
   border-bottom: 5px solid white;
@@ -706,7 +836,7 @@ tfoot {
 }
 
 table > tbody > tr > td {
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
   cursor: pointer;
   vertical-align: top;
   text-align: left;
@@ -716,7 +846,7 @@ tr.party > td.snp,
 tr.party > td.isp,
 tr.party > td.green,
 tr.party > td.labour,
-tr.party > td.conservative,
+tr.party > td.tories,
 tr.party > td.libdems {
   text-transform: uppercase;
   display: -webkit-inline-box;
@@ -726,7 +856,7 @@ tr.party > td.libdems {
 
 tr.party > td.green,
 tr.party > td.labour,
-tr.party > td.conservative,
+tr.party > td.tories,
 tr.party > td.libdems {
   text-transform: capitalize;
 }
@@ -742,8 +872,8 @@ tr.party > td.isp {
   height: 1.5rem;
   border-radius: 50%;
   background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/snp.png');
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -753,19 +883,19 @@ tr.party > td.isp {
   height: 1.5rem;
   border-radius: 50%;
   background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/green.png');
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
-.party > td.conservative > div.logo {
+.party > td.tories > div.logo {
   margin-right: 1rem;
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
-  background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/conservative.png');
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/tories.png');
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -775,8 +905,8 @@ tr.party > td.isp {
   height: 1.5rem;
   border-radius: 50%;
   background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/labour.png');
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -786,8 +916,8 @@ tr.party > td.isp {
   height: 1.5rem;
   border-radius: 50%;
   background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/libdems.png');
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -797,8 +927,8 @@ tr.party > td.isp {
   height: 1.5rem;
   border-radius: 50%;
   background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/isp.jpg');
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -807,8 +937,8 @@ tr.party > td.isp {
   height: 4rem;
   border-radius: 50%;
   background: url('http://ec2-54-194-194-25.eu-west-1.compute.amazonaws.com/images/info.png');
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -872,7 +1002,7 @@ tr.party > td.isp {
   }
 
   table > tbody > tr > td {
-    padding: 0.5rem .5rem;
+    padding: 0.5rem 0.5rem;
   }
 
   .menu-open-container {
@@ -883,11 +1013,11 @@ tr.party > td.isp {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 0.5rem 0 0.5rem 1rem;
     margin-bottom: 1rem;
   }
@@ -925,8 +1055,8 @@ tr.party > td.isp {
   .alliances {
     padding: 1rem 0rem !important;
   }
-  
-  .alliances > .union > p:first-child, 
+
+  .alliances > .union > p:first-child,
   .alliances > .indy > p:first-child {
     display: none;
   }
@@ -964,12 +1094,11 @@ tr.party > td.isp {
 }
 
 @media only screen and (max-width: 492px) {
-
   .alliances > .indy > .data-container,
   .alliances > .union > .data-container {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .flag {
@@ -982,7 +1111,7 @@ tr.party > td.isp {
   }
 
   table > tbody > tr > td {
-    padding: 0.25rem .5rem;
+    padding: 0.25rem 0.5rem;
   }
 
   table {
@@ -1001,7 +1130,7 @@ tr.party > td.isp {
 
 @media only screen and (min-height: 700px) {
   table > tbody > tr > td {
-    padding: 0.65rem .5rem;
+    padding: 0.65rem 0.5rem;
   }
 }
 
@@ -1029,10 +1158,9 @@ tr.party > td.isp {
   }
 
   table > tbody > tr > td {
-    padding: 0.6rem .3rem;
+    padding: 0.6rem 0.3rem;
   }
 }
-
 
 .menu {
   position: fixed;
@@ -1040,17 +1168,17 @@ tr.party > td.isp {
   height: 100vh;
   top: 0;
   left: 0;
-  background: #3478BA;
+  background: #3478ba;
   z-index: 9999;
   color: #222;
   -webkit-transform: translateX(125%);
-          transform: translateX(125%);
+  transform: translateX(125%);
   border-left: 4px solid #222;
-  -webkit-box-shadow: 0 5px 13px -1px rgba(0,0,0,0.5);
-          box-shadow: 0 5px 13px -1px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.5);
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-} 
+  box-sizing: border-box;
+}
 
 .menu__inner-container {
   height: 100vh;
@@ -1059,11 +1187,11 @@ tr.party > td.isp {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   /* justify-content: space-between; */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .created {
@@ -1078,7 +1206,7 @@ tr.party > td.isp {
 
 .menu.--open {
   -webkit-transform: translateX(25%);
-          transform: translateX(25%);
+  transform: translateX(25%);
 }
 
 .menu__inner-container {
@@ -1091,7 +1219,7 @@ tr.party > td.isp {
 }
 
 .menu__title:hover {
-    color: #fdf38e;
+  color: #fdf38e;
 }
 
 .menu__title {
@@ -1100,23 +1228,22 @@ tr.party > td.isp {
 }
 
 .menu__list {
-
 }
 
 .menu__list > ul {
   list-style: none;
 }
 
-.item:hover > a { 
+.item:hover > a {
   color: white;
   cursor: pointer;
 }
 
-.item:hover::after { 
+.item:hover::after {
   background: #fdf38e;
 }
 
-.item { 
+.item {
   position: relative;
   margin: 1.5rem 0;
 }
@@ -1139,7 +1266,6 @@ tr.party > td.isp {
   color: #fdf38e;
   text-decoration: none;
 }
-
 
 .item > p {
   line-height: 1.6;

@@ -23,8 +23,8 @@ export default () => {
         >
           what would have been in 2016
         </span>{' '}
-        had the Indy movement split the list vote between the two biggest
-        Pro-Indy parties in all regions of Scotland.
+        had the Indy movement shared the list vote between the two biggest
+        Pro-Indy parties in the Scottish regional elections.
       </p>
       {/* <div className="countdown">
         <Countdown

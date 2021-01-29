@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Statistic, Card, Row, Col } from 'antd';
 import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 
 export default (props) => {
   const { results } = props;
+  const [indyDiff, setIndyDiff] = useState();
+  const [unionDiff, setUnionDiff] = useState();
 
   if (results) {
     const diff = results.partyInfo
@@ -35,32 +37,44 @@ export default (props) => {
         return '#cf1322';
       }
 
-      return 'transparent';
+      // return 'transparent';
     };
+
+    const totalSeatsAvailable = results.totals.regionalSeats;
+    const newIndySeats = results.alliances.indy.regional;
+    const newUnionSeats = results.alliances.union.regional;
+
+    useEffect(() => {
+      const _diff_indy = diff.indy === 0 ? 'No change' : diff.indy;
+      const _diff_union = diff.union === 0 ? 'No change' : diff.union;
+      setIndyDiff(_diff_indy);
+      setUnionDiff(_diff_union);
+    }, [results]);
 
     return (
       results && (
         <div className="Overall">
-          <h2>Overall</h2>
+          <h2 style={{ padding: '1rem 0' }}>Overall change</h2>
+          <hr />
           <div className="inner-container">
             <Card>
               <Statistic
-                title="Pro Independence"
-                value={diff.indy}
+                title={`Pro Indy: ${newIndySeats} / ${totalSeatsAvailable} seats`}
+                value={indyDiff}
                 precision={0}
                 valueStyle={{ color: colour(diff.indy) }}
                 prefix={<ArrowUpOutlined />}
-                suffix="seats"
+                suffix=""
               />
             </Card>
             <Card>
               <Statistic
-                title="Unionist"
-                value={diff.union}
+                title={`Union: ${newUnionSeats} / ${totalSeatsAvailable} seats`}
+                value={unionDiff}
                 precision={0}
                 valueStyle={{ color: colour(diff.union) }}
                 prefix={<ArrowDownOutlined />}
-                suffix="seats"
+                suffix=""
               />
             </Card>
           </div>

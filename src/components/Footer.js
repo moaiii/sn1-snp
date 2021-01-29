@@ -5,7 +5,8 @@ import { FaLinkedin } from 'react-icons/fa';
 export default () => {
   return (
     <div className="Footer">
-      <h2>About</h2>
+      <h2 style={{ padding: '1rem 0' }}>thank you</h2>
+      <hr />
       <div className="inner-container">
         <div className="avatar"></div>
         <div className="blurb">

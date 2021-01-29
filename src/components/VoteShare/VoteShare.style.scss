@@ -1,9 +1,12 @@
 .VoteShare {
+  margin: 1rem 0;
+
   .inner-container {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin: 1rem 0;
   }
 
   .ant-slider {
@@ -36,22 +39,36 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     .item {
       display: flex;
+      margin: 0;
 
-      &:nth-of-type(odd) {
+      &.--commentary {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         p {
-          text-align: left;
-          margin: 0.5rem 0.5rem 0 0;
+          &.--snp {
+            background: #fbf2a7;
+            color: #121211;
+            padding: 0.25rem 0.5rem;
+          }
         }
       }
 
-      &:nth-of-type(even) {
-        flex-direction: row-reverse;
+      &:nth-of-type(1) {
+        p {
+          text-align: left;
+        }
+      }
+
+      &:nth-of-type(3) {
         p {
           text-align: right;
-          margin: 0 0 0.5rem 0.5rem;
         }
       }
 
@@ -64,7 +81,6 @@
 
         span {
           font-weight: 400;
-          margin-bottom: 4px;
           color: rgba(0, 0, 0, 0.45);
           font-size: 14px;
         }

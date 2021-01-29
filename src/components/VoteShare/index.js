@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Slider } from 'antd';
 import snp from '../../images/snp.png';
 import green from '../../images/green.png';
@@ -11,6 +11,19 @@ export default (props) => {
     setVoteShare,
   } = props;
   const [sliderValue, setSliderValue] = useState(voteShare);
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    if (props.voteShare.results) {
+      const _partyData = results.partyInfo.map((party) => {
+        return {
+          party: party.name,
+          change: party.regionalSeats - party.originalList,
+        };
+      });
+      setData(_partyData);
+    }
+  }, [results]);
 
   const snp2016 = parseInt(
     results2016.partyInfo
@@ -46,9 +59,17 @@ export default (props) => {
   // prettier-ignore
   const greenChangePerc = 100 - (sliderValue / 1)
 
+  console.log(data);
+
+  const snpHaveLost =
+    data.length > 0
+      ? `The SNP have lost ${Math.abs(data[0].change)} list seats`
+      : '';
+
   return (
     <div className="VoteShare">
-      <h2>Share the vote</h2>
+      <h2 style={{ padding: '1rem 0' }}>Share the vote</h2>
+      <hr />
       <div className="inner-container">
         <div className="party__stat">
           <div className="VoteShare__image">
@@ -58,13 +79,15 @@ export default (props) => {
         <Slider
           min={0}
           max={100}
+          reverse={true}
           onChange={setSliderValue}
-          onAfterChange={() =>
+          onAfterChange={() => {
+            // debugger;
             setVoteShare({
-              voteShare: sliderValue,
+              voteShare: 100 - sliderValue,
               region: results.region,
-            })
-          }
+            });
+          }}
           value={sliderValue}
         />
         <div className="party__stat">
@@ -75,28 +98,14 @@ export default (props) => {
       </div>
       <div className="VoteShare__numbers">
         <div className="item">
-          <p>
-            <span>2016</span> {format()(snp2016)}
-          </p>
-          <p>
-            <span>2021</span> {format()(snpProjected)}
-          </p>
-          <p>
-            <span>Change</span> {format()(snpChange)}
-          </p>
-          {/* <p>{snpChangePerc}%</p> */}
+          <p>- {100 + snpChangePerc}%</p>
+        </div>
+        <div className="item --commentary">
+          <p>{`${format()(greenChange)} votes from the SNP to Greens`}</p>
+          <p className="--snp">{snpHaveLost}</p>
         </div>
         <div className="item">
-          <p>
-            <span>2016</span> {format()(green2016)}
-          </p>
-          <p>
-            <span>2021</span> {format()(greenProjected)}
-          </p>
-          <p>
-            <span>Change</span> {format()(greenChange)}
-          </p>
-          {/* <p>{greenChangePerc}%</p> */}
+          <p>{Math.abs(greenChangePerc - 100)}%</p>
         </div>
       </div>
     </div>
