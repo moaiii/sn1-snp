@@ -1,0 +1,42 @@
+.RegionDetails {
+  margin: 1rem 0;
+  h2 {
+    text-transform: uppercase;
+  }
+  .areas {
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+  .RegionDetails__stats {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .ant-statistic-content {
+      display: flex;
+    }
+
+    .ant-statistic-content-prefix {
+      display: flex;
+      align-items: center;
+      margin-right: 1rem;
+
+      svg {
+        opacity: 0.5;
+        font-size: 2rem;
+      }
+    }
+
+    .ant-statistic {
+      &.--turnout {
+        .ant-statistic-content {
+          .ant-statistic-content-prefix {
+            svg {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

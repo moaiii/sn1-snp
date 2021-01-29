@@ -1,0 +1,11 @@
+.Overall {
+  .inner-container {
+    display: flex;
+    justify-content: space-between;
+
+    .ant-card {
+      max-width: 45%;
+      width: 50%;
+    }
+  }
+}
