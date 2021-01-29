@@ -103,7 +103,7 @@ export default (props) => {
           <p>- {100 + snpChangePerc}%</p>
         </div>
         <div className="item --commentary">
-          <p>{`${format()(greenChange)} votes from the SNP to Greens`}</p>
+          <p>{`${format()(greenChange)} list votes from the SNP to Greens`}</p>
           <p className="--snp">{snpHaveLost}</p>
         </div>
         <div className="item">

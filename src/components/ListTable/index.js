@@ -9,20 +9,21 @@ const columns = [
     render: (text) => text.toUpperCase(),
   },
   {
+    title: 'Const. seats',
+    dataIndex: 'constituency-seats',
+    key: 'constituency-seats',
+  },
+  {
     title: 'List votes',
     dataIndex: 'list-votes',
     key: 'list-votes',
   },
   {
-    title: 'List seats',
+    title: 'New list seats',
     dataIndex: 'list-seats',
     key: 'list-seats',
   },
-  {
-    title: 'Constituency seats',
-    dataIndex: 'constituency-seats',
-    key: 'constituency-seats',
-  },
+
   {
     title: 'Total seats',
     dataIndex: 'total-seats',
