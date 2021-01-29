@@ -15,7 +15,7 @@ export default (props) => {
       .reduce(
         (acc, cur) => {
           const [partyName, partyDiff] = Object.entries(cur).pop();
-          const isIndy = partyName === 'snp' || partyName === 'isp';
+          const isIndy = partyName === 'snp' || partyName === 'green';
           const indy = isIndy ? acc.indy + partyDiff : acc.indy;
           const union = !isIndy ? acc.union + partyDiff : acc.union;
           return {
